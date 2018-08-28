@@ -1,5 +1,6 @@
 public class Sample {
-    public int functn(){
-        return 0;
+    public int functn(int a,int b){
+
+        return a-b;
     }
 }
