@@ -1,8 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.6.1" timestamp="2018-08-28T15:25:47.710">
-<file name="/home/Apexit/IdeaProjects/seven/src/test/java/SampleTest.java">
-<violation beginline="10" endline="10" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" class="SampleTest" method="testing" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="3">
-System.out.println is used
-</violation>
-</file>
+<pmd version="5.5.1" timestamp="2018-08-29T09:32:45.692">
 </pmd>

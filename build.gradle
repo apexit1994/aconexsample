@@ -1,23 +1,6 @@
-plugins {
-    id 'java'
-    id 'pmd'
-    id 'checkstyle'
-    id 'application'
-}
+apply plugin: 'java'
+apply plugin: 'pmd'
 
-
-group 'seven'
-version '1.0-SNAPSHOT'
-
-mainClassName = "org.gradle.sample.Main"
-
-task runApp(type:JavaExec) {
-    classpath = sourceSets.main.runtimeClasspath
-
-    main = project.hasProperty("mainClass") ? project.getProperty("mainClass") : "package.MyDefaultMain"
-}
-
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -31,5 +14,4 @@ pmd {
     ignoreFailures=true
     ruleSetFiles = files("${rootDir}/config/pmd/pmd.xml")
 }
-
 
